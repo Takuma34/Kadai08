@@ -1,0 +1,80 @@
+/* 全体 */
+body {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho Pro";
+}
+/* ヘッダー */
+header {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.list {
+  padding-top: 20px;
+  font-size: 30px;
+  letter-spacing: 11px;
+}
+
+.next {
+  border: 1px solid #666;
+  background-color: #fff;
+  width: 100px;
+  margin: 0 auto 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.next a {
+  text-decoration: none;
+  color: black;
+}
+
+.next:hover {
+  background: #f5a500;
+  color: #fff;
+}
+
+/* 履歴の表示 */
+/* テーブル全体のスタイル */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* テーブルヘッダ */
+th {
+  background-color: #f5f5f5;
+  text-align: left;
+  padding: 8px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+/* テーブルデータ行のスタイル */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+/* 行の見やすさ（偶数行） */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+/* ホバー */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 修正と削除リンクのスタイル */
+td a {
+  display: inline-block;
+  padding: 4px 8px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+td a:hover {
+  background-color: #0056b3;
+}

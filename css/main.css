@@ -1,0 +1,125 @@
+/* 全体 */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho Pro";
+}
+/* ヘッダー */
+header {
+  background-color: #3aacad;
+  letter-spacing: 10px;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  letter-spacing: 8px;
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+.title {
+  padding-top: 20px;
+  font-size: 25px;
+}
+/* メインフォーム　全体　*/
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+}
+#mainTable,
+#subTable {
+  padding-bottom: 0;
+  border-bottom: 1px solid #ccc;
+}
+h3 {
+  letter-spacing: 5px;
+  border-bottom: 2px solid black;
+  margin-right: 410px;
+}
+td {
+  border-top: 1px solid #bfbfbf;
+  border-left: 1px solid #bfbfbf;
+}
+
+/* メインフォーム　左側　*/
+.yourname,
+.company,
+.tell,
+.address,
+.hosp,
+.item,
+.sn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  border-top: 1px solid #bfbfbf;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  width: 240px;
+}
+.reson {
+  text-align: left;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: auto;
+  border-top: 1px solid #bfbfbf;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+}
+/* メインフォーム　右側　*/
+#textBoxName,
+#textBoxTell,
+#textBoxCompany,
+#textBoxAddress,
+#textBoxhosp,
+#textBoxitem,
+#textBoxsn {
+  justify-content: center;
+  font-size: 16px;
+  height: 25px;
+  width: 280px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#message {
+  justify-content: center;
+  height: 150px;
+  width: 280px;
+  border-left: 1px solid #bfbfbf;
+}
+/* 内容入力ボックス　*/
+#textarea {
+  font-size: 16px;
+  box-shadow: 1px 1px 1px 1px #555;
+  height: 100px;
+  margin-left: 10px;
+  width: 280px;
+}
+/* 登録、クリアボタン　*/
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#save,
+#remove {
+  border: 1px solid #666;
+  background-color: #fff;
+  display: flex;
+  margin: 20px;
+  width: 120px;
+  justify-content: center;
+}
+#save:hover {
+  background: #f5a500;
+}
+#remove:hover {
+  background: #f5a500;
+}
